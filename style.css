@@ -296,6 +296,25 @@ a{
     font-size: 17px;
 }
 
+.tastiest_main{
+    position: relative;
+
+    /* height: 600px; */
+    width: 100%;
+    /* background-color: #fcc133; */
+}
+.tastiest_bg_img{
+    height: 600px;
+    background-image: url(https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/808f86fbe4b25bd1830f78a5/pexelsphoto842142.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.tastiest_text{
+    position: absolute;
+    right: 0;
+    color: #fff;
+}
 
 @media screen and (max-width:480px){
 .bg_img_main{
