@@ -296,14 +296,12 @@ a{
     font-size: 17px;
 }
 
-.tastiest_main{
-    /* position: relative; */
-
-    /* height: 600px; */
+/* .tastiest_main{
     width: 100%;
-    /* background-color: #fcc133; */
-}
+
+} */
 .tastiest_bg_img{
+    position: relative;
     height: 600px;
     background-image: url(https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/808f86fbe4b25bd1830f78a5/pexelsphoto842142.jpeg);
     background-repeat: no-repeat;
@@ -311,9 +309,152 @@ a{
     background-position: center;
 }
 .tastiest_text{
+    position: absolute;
     color: #fff;
     width: 40%;
+    right: 70px;
+    bottom: 80px;
+    font-family: sans-serif;
 }
+.tastiest_text h2{
+    font-size: 43px;
+    letter-spacing: 1px;
+
+}
+.tastiest_text p{
+    margin-top: 20px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+.Reviews_main{
+    /* height: 600px; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    /* background-color: #fcc133; */
+}
+.Reviews_bg_img{
+    height: 600px;
+    width: 50%;
+    background-image: url(https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/fc3e1ec09fae54b78a04eeab/pexelsphoto2641886.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.Reviews_text{
+    width: 50%;
+    height: 600px;
+    background-color: #292930;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.review_text1{
+    color: #fff;
+    width: 50%;
+    text-align: center;
+}
+.review_text1 h2{
+    font-size: 47px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.fa-shop{
+    margin-top: 25px;
+    font-size: 50px;
+    color: #fcc133;
+}
+.review_text1 p{
+    color: #fff;
+    margin-top: 30px;
+    font-weight: 500;
+    line-height: 25px;
+}
+.review_text1 h4{
+    text-align: start;
+    margin-top: 30px;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+.maintenance_main{
+    /* border: 2px solid lightgreen; */
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center ;
+    background-color: #292930;
+}
+.procedure1{
+    height: 380px;
+    width: 28%;
+    /* border: 2px solid red; */
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+.today{
+    width: 70%;
+}
+.repair{
+    font-weight: 700;
+}
+.repair1{
+margin-top: 30px;
+font-size: 20px;
+letter-spacing: 1px;
+}
+
+.procedure2{
+    height: 380px;
+    width: 28%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.procedure2_img{
+    height: 300px;
+    width: 60%;
+    /* border: 2px solid blue; */
+}
+.procedure2_img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.procedure3{
+    height: 380px;
+    width: 26%;
+    background-color: #fcc133;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: start; */
+}
+/* .Freephone{
+    height: 100%;
+    width: 90%;
+    
+    
+} */
+.Freephone p{
+    margin-top: 15px;
+}
+
+.Freephone h2{
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+
+
 
 @media screen and (max-width:480px){
 .bg_img_main{
