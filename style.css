@@ -297,7 +297,7 @@ a{
 }
 
 .tastiest_main{
-    position: relative;
+    /* position: relative; */
 
     /* height: 600px; */
     width: 100%;
@@ -311,9 +311,8 @@ a{
     background-position: center;
 }
 .tastiest_text{
-    position: absolute;
-    right: 0;
     color: #fff;
+    width: 40%;
 }
 
 @media screen and (max-width:480px){
